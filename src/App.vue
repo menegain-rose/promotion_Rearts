@@ -1,8 +1,8 @@
 <template>
   <header class="relative bg-black-primary flex justify-between items-center h-20 pl-4">
 
-      <RouterLink to="/" class="flex h-full items-center -ml-6">
-        <img src="/icones/Logoblanc.svg" class="w-auto h-full mt-5" alt="Logo Réarts">
+      <RouterLink to="/" class="flex h-full items-center">
+        <img src="/icones/Logoblanc.svg" class="w-auto h-14" alt="Logo Réarts">
       </RouterLink>
 
 
@@ -32,7 +32,7 @@
   <footer>
     <section class="flex flex-col items-center text-center bg-HeadFoot text-PrincipalyText pt-4 pb-8 bg-black-primary text-blanc-primary">
       <div class="flex items-center">
-        <img class="w-28 h-auto -mx-6" src="/icones/Logoblanc.svg" alt="">
+        <img class="w-14 h-auto " src="/icones/Logoblanc.svg" alt="Logo Site">
         <h3 class="font-comfortaa font-normal text-xl">éarts</h3>
       </div>
         <span class="font-comfortaa font-normal text-lg ">Nous rejoindre</span>

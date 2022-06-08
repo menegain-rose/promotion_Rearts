@@ -1,17 +1,18 @@
 <template>
   <main>
-    <h1 class="text-2xl my-4">Bonjour</h1>
+    <h1 class="text-2xl my-4 font-raleway">Découvrez réarts !</h1>
 
     <p>
-      Découvrez Réarts, un site qui mélange l’imagination de vos enfants et le travail d’un artiste.
+      Un site qui mélange l’imagination de vos enfants et le travail d’un artiste.
     </p>
     <h3>
       Un petit dessin pour lui, un grand souvenir pour vous
     </h3>
-    <img src="/icones/Logonoir.svg" class="w-60 h-auto mt-1 -mb-3 items-center" alt="LogoRéarts">
-    <Bouton class=" m-3">
+    <Bouton class="flex justify-end">
       <slot>Visiter  Réarts</slot>
     </Bouton>
+
+    <img src="/icones/Logonoir.svg" class="w-60 h-auto mt-1 -mb-3 items-center" alt="LogoRéarts">
 
     
     <p>

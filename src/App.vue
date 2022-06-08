@@ -2,7 +2,7 @@
   <header class="relative bg-black-primary flex justify-between items-center h-20 pl-4">
 
       <RouterLink to="/" class="flex h-full items-center -ml-6">
-        <img src="/icones/Logoblanc.svg" class="w-auto h-24 mt-5" alt="Logo Réarts">
+        <img src="/icones/Logoblanc.svg" class="w-auto h-full mt-5" alt="Logo Réarts">
       </RouterLink>
 
 

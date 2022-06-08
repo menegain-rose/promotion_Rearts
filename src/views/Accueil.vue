@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="items-center text-center object-center">
     <div class="text-center">
       <h1 class="text-2xl my-4 font-raleway">Découvrez réarts !</h1>
   
@@ -11,14 +11,17 @@
         Un petit dessin pour lui, un grand souvenir pour vous
       </h3>
     </div>
-    
-      <Bouton class="flex justify-end">
-        <slot>Visiter  Réarts</slot>
-      </Bouton>
-  
-      <img src="/icones/Logonoir.svg" class="w-60 h-auto mt-1 -mb-3 items-center" alt="LogoRéarts">
+      
+      <div class="flex justify-center">
+        <Bouton class="">
+          <slot>Visiter  Réarts</slot>
+        </Bouton>
+      </div>
 
-    
+      <div class="flex justify-center">
+        <img src="/icones/Logonoir.svg" class="w-60 h-auto m-8" alt="LogoRéarts">
+      </div>
+      
     <p>
     Vous connaissez peut-être l'artiste Thomas Romain, il est connu principalement pour redessiner les dessins de son enfant.
     </p>

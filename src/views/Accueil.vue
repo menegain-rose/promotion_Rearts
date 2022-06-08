@@ -5,7 +5,7 @@
     <p>
       Un site qui mélange l’imagination de vos enfants et le travail d’un artiste.
     </p>
-    <h3 class="text-Rouge">
+    <h3 class="text-Red_primary">
       Un petit dessin pour lui, un grand souvenir pour vous
     </h3>
     <Bouton class="flex justify-end">

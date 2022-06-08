@@ -24,7 +24,7 @@
   </header>
 
 
-  <main class="bg-blanc-primary mx-5 my-8">
+  <main class="mx-5 my-8">
   <RouterView />
   </main>
 

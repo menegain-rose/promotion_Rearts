@@ -2,9 +2,9 @@
 
         <h2>Mentions légales</h2>
 
-        <h3>
+        <h5>
             Conditions générales d'utilisation
-        </h3>
+        </h5>
 
         <p>
             En vigueur au 12/04/2022 <br>
@@ -24,9 +24,9 @@
             présentes CGU. <br>
         </p>
 
-        <h3>
-            Article 1 : Les mentions légales
-        </h3>
+        <h5>
+            ARTICLE 1 : Les mentions légales
+        </h5>
 
         <p>
             L'édition du site https://rearts.fr est assurée par la Société SAS Réarts au capital de 20000 euros,
@@ -39,9 +39,9 @@
             dont le siège social est situé au Suisse, Genève, avec le numéro de téléphone : 0356479895.
         </p>
 
-        <h3>
+        <h5>
             ARTICLE 2 : Accès au site
-        </h3>
+        </h5>
 
         <p>
             Le site https://rearts.fr permet à l'Utilisateur un accès gratuit aux services suivants : <br>
@@ -69,9 +69,9 @@
             l’éditeur communiqué à l’ARTICLE 1.
         </p>
 
-        <h3>
+        <h5>
             ARTICLE 3 : Collecte des données
-        </h3>
+        </h5>
 
         <p>
             Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la vie privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés. <br>
@@ -83,9 +83,9 @@
             par mail à l'adresse email maxence.cante@edu.univ-fcomte.fr
         </p>
 
-        <h3>            
+        <h5>            
             ARTICLE 4 : Propriété intellectuelle
-        </h3>
+        </h5>
 
         <p>
             
@@ -103,9 +103,9 @@
             reproduit, copie ou publie le contenu protégé doit citer l’auteur et sa source.
         </p>
 
-        <h3>            
+        <h5>            
             ARTICLE 5 : Responsabilité
-        </h3>
+        </h5>
 
         <p>
             
@@ -122,9 +122,9 @@
             La responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d'un tiers.
         </p>
 
-        <h3>            
+        <h5>            
             ARTICLE 6 : Liens hypertextes
-        </h3>
+        </h5>
 
         <p>
             
@@ -133,9 +133,9 @@
             Ce dernier n’a pas de contrôle sur les pages web sur lesquelles aboutissent ces liens et ne saurait, en aucun cas, être responsable de leur contenu.
         </p>
 
-        <h3>            
+        <h5>            
             ARTICLE 7 : Cookies
-        </h3>
+        </h5>
 
         <p>
             
@@ -150,9 +150,9 @@
             L’Utilisateur pourra désactiver ces cookies par l’intermédiaire des paramètres figurant au sein de son logiciel de navigation.
         </p>
 
-        <h3>                      
+        <h5>                      
             ARTICLE 8 : Publication par l’Utilisateur
-        </h3>
+        </h5>
 
         <p>
             
@@ -176,9 +176,9 @@
             Le contenu de l'Utilisateur peut être à tout moment et pour n'importe quelle raison supprimé ou modifié par le site, sans préavis.
         </p>
 
-        <h3>                      
+        <h5>                      
             ARTICLE 9 : Droit applicable et juridiction compétentez
-        </h3>
+        </h5>
 
         <p>
             

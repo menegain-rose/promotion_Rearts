@@ -18,6 +18,9 @@
         @apply font-comfortaa font-bold text-lg my-3 text-black-primary
     }
 
+    h5 {
+        @apply font-comfortaa font-bold text-lg my-3 text-black-primary
+    }
 
     p {
         @apply text-lg text-black-primary font-comfortaa

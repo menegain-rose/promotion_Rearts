@@ -1,22 +1,25 @@
 <template>
-  <header class="bg-black-primary flex justify-between py-1 px-2" v-if="!['PageNotFound'].includes($route.name)">
-    <div>
-      <router-link to="/"><img src="/icones/Logoblanc.svg" class="w-24 h-auto mt-1 -mb-3" alt="LogoFestival"></router-link>
+  <header class="relative bg-black-primary flex justify-between items-center h-20 pl-4">
 
-    </div>
+      <RouterLink to="/" class="flex h-full items-center -ml-6">
+        <img src="/icones/Logoblanc.svg" class="w-auto h-24 mt-5" alt="Logo Réarts">
+      </RouterLink>
 
-    <div>
-      <nav>
-        <router-link to="/Apropos">
-            <h3>A propos</h3>
-        </router-link>
-        <Bouton class=" m-3">
-          <RouterLink to="/Inscription" class=" m-3">
-          <slot>S'inscrire</slot>
+
+      <nav class="flex pr-8 pl-5 h-full">
+        <div class="pr-5 h-full flex items-center">
+          <RouterLink to="/Apropos">
+              <h3>A propos</h3>
           </RouterLink>
-        </Bouton>
+        </div>
+        <div class="relative z-50 h-full flex items-center">
+          <Bouton class=" m-3">
+            <RouterLink to="/Inscription" class=" m-3">
+            <slot>S'inscrire</slot>
+            </RouterLink>
+          </Bouton>
+        </div>
       </nav>
-    </div>
 
   </header>
 
@@ -53,6 +56,7 @@
 </template>
 
 <script>
+import { RouterLink, RouterView } from "vue-router";
 import { MenuIcon } from "@heroicons/vue/outline"
 import Facebook from "/src/components/icons/facebook.vue";
 import Instagram from "/src/components/icons/instagram.vue";
@@ -63,13 +67,15 @@ import Bouton from "/src/components/icons/bouton.vue"
 
 
 export default {
-    name:"",
-        data(){
-    return{
-      menuOuvert:false,
-    }
-  },
 
-  components: { MenuIcon, Facebook, Instagram, Youtube, croix, Bouton },
+  components: { 
+    RouterLink,
+    RouterView,
+    MenuIcon, 
+    Facebook, 
+    Instagram, 
+    Youtube, 
+    croix, 
+    Bouton },
 };
 </script>

@@ -30,16 +30,16 @@
 
 
   <footer>
-    <section class="flex flex-col items-center text-center bg-HeadFoot text-PrincipalyText pt-4 pb-8 bg-black-primary text-blanc-primary">
+    <section class="flex flex-col items-center text-center bg-HeadFoot text-PrincipalyText pt-4 pb-8 bg-black-primary text-white-primary">
       <div class="flex items-center">
         <img class="w-14 h-auto " src="/icones/Logoblanc.svg" alt="Logo Site">
         <h3 class="font-comfortaa font-normal text-xl">éarts</h3>
       </div>
         <span class="font-comfortaa font-normal text-lg ">Nous rejoindre</span>
       <div>
-        <Facebook class="fill-blanc-primary inline-block m-3 mx-3"></Facebook>
-        <Instagram class="fill-blanc-primary inline-block m-3 mx-3"></Instagram>
-        <Youtube class="fill-blanc-primary inline-block m-3 mx-3"></Youtube>
+        <Facebook class="fill-white-primary inline-block m-3 mx-3"></Facebook>
+        <Instagram class="fill-white-primary inline-block m-3 mx-3"></Instagram>
+        <Youtube class="fill-white-primary inline-block m-3 mx-3"></Youtube>
       </div>
         <Bouton class=" m-3">
           <RouterLink to="/Inscription" class=" m-3">

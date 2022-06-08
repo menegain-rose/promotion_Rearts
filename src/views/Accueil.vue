@@ -1,9 +1,62 @@
 <template>
   <main>
     <h1 class="text-2xl">Bonjour</h1>
+
+    <p>
+      Découvrez Réarts, un site qui mélange l’imagination de vos enfants et le travail d’un artiste.
+    </p>
+    <h3>
+      Un petit dessin pour lui, un grand souvenir pour vous
+    </h3>
+    <img src="/icones/Logonoir.svg" class="w-60 h-auto mt-1 -mb-3" alt="LogoRéarts">
+    <Bouton class=" m-3">
+      <slot>Visiter  Réarts</slot>
+    </Bouton>
+    <p>
+    Vous connaissez peut-être l'artiste Thomas Romain, il est connu principalement pour redessiner les dessins de son enfant.
+    </p>
+
+    <div class="flex justify-around">
+      <img src="/imageshome/enfant-bleu.png" class="w-60 h-auto my-3" alt="dessin d'enfant">
+      <img src="/imageshome/artiste-bleu.png" class="w-60 h-auto my-3" alt="dessin d'artiste">
+    </div>
+
+    <p>
+      Des oeuvres uniques
+    </p>
+
+    <div class="flex justify-around">
+      <img src="/imageshome/enfant-gris.png" class="w-60 h-auto my-3" alt="dessin d'enfant">
+      <img src="/imageshome/artiste-gris.png" class="w-60 h-auto my-3" alt="dessin d'artiste">
+    </div>
+
+    <p>
+      Une expérience pour l'artiste et l'enfant
+    </p>
+    
+    <div class="flex justify-around">
+      <img src="/imageshome/enfant-violet.png" class="w-60 h-auto my-3" alt="dessin d'enfant">
+      <img src="/imageshome/artiste-violet.png" class="w-60 h-auto my-3" alt="dessin d'artiste">
+    </div>
+
+    <p>
+      Un cadeau original
+    </p>
+
+    <p>
+      Réarts donne un porcentage d'achat à des associations, et vous pourrez également faire des dons directement sur notre site.
+    </p>
+
   </main>
 </template>
 
 <script>
-export default {};
+import Bouton from "/src/components/icons/bouton.vue"
+
+
+
+export default {
+
+  components: { Bouton },
+};
 </script>

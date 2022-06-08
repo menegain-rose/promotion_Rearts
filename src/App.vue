@@ -26,7 +26,7 @@
   </main>
 
 
-  <footer v-if="!['PageNotFound'].includes($route.name)">
+  <footer>
     <section class="flex flex-col items-center text-center bg-HeadFoot text-PrincipalyText pt-4 pb-8 bg-black-primary text-blanc-primary">
       <div class="flex items-center">
         <img class="w-28 h-auto -mx-6" src="/icones/Logoblanc.svg" alt="">

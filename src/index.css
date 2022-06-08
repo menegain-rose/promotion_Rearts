@@ -14,6 +14,10 @@
         @apply font-comfortaa font-bold text-lg my-3 text-blanc-primary
     }
 
+    h4 {
+        @apply font-comfortaa font-bold text-lg my-3 text-black-primary
+    }
+
 
     p {
         @apply text-lg text-black-primary font-comfortaa

@@ -9,15 +9,12 @@
             Les trois fondateurs de Réarts ont donc mis leurs compétences à profit pour vous satisfaire.
         </p>
 
-        <h3 class="pt-10">
-            N'hésitez pas à nous rejoindre sur les réseaux sociaux !
-        </h3>
 
-        <h3 class="pt-10 -mb-14">
+        <h4 class="pt-6">
             Contactez-nous en cas de problèmes
-        </h3>
+        </h4>
 
-        <div class="h-96 -mt-14"></div>
+        <div class="h-96 -mt-20"></div>
         <div class="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8 mb-12">
             <div class="bg-Gris_Clair w-full shadow rounded p-6 sm:p-12 -mt-72">
                 <form action="" method="post">

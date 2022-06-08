@@ -14,7 +14,7 @@
         </div>
         <div class="relative z-50 h-full flex items-center">
           <Bouton class=" m-3">
-            <RouterLink to="/Inscription" class=" m-3">
+            <RouterLink to="/Inscription">
             <slot>S'inscrire</slot>
             </RouterLink>
           </Bouton>
@@ -31,7 +31,7 @@
 
   <footer>
     <section class="flex flex-col items-center text-center bg-HeadFoot text-PrincipalyText pt-4 pb-8 bg-black-primary text-white-primary">
-      <div class="flex items-center">
+      <div class="flex items-center mb-3">
         <img class="w-14 h-auto " src="/icones/Logoblanc.svg" alt="Logo Site">
         <h3 class="font-comfortaa font-normal text-xl">éarts</h3>
       </div>

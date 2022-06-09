@@ -13,8 +13,10 @@
     </div>
       
       <div class="flex justify-center mt-7">
-        <Bouton class="">
-          <slot>Visiter  Réarts</slot>
+        <Bouton class=" m-3">
+          <a href="https://rearts.leopold-ohnimus.fr"> 
+              Découvrir Réarts
+            </a>
         </Bouton>
       </div>
 
@@ -30,13 +32,13 @@
       Nos principes sont : 
     </h3>
     <h3 class="text-Red_primary">
-      - permettre à pleins d'autres enfants de recevoir se genre de souvenirs uniques et inoubliables
+      - Permettre à pleins d'autres enfants de recevoir ce genre de souvenirs uniques et inoubliables
     </h3>
     <h3 class="text-Red_primary">
-      - permettre d'aider des associations qui nous tiennent à coeur
+      - Permettre d'aider des associations qui nous tiennent à coeur
     </h3>
     <h3 class="text-Red_primary">
-      - permettre à des artistes de gagner de l'argent en vendant leurs services et 
+      - Permettre à des artistes de gagner de l'argent en vendant leurs services. 
     </h3>
 
     <div class="flex justify-center items-center">
@@ -46,7 +48,8 @@
     </div>
 
     <p class="my-10">
-      Passer 
+      Chaque artiste à un style propre à lui, <br>
+      Nous offrons la possibilité aux artistes de montrer leurs compétences et des exemples de leur travail.
     </p>
 
     <div class="flex justify-center items-center">
@@ -56,7 +59,8 @@
     </div>
 
     <p class="my-10">
-      Une expérience pour l'artiste et l'enfant
+      Réarts offre une expérience à l'artiste et à l'enfant. <br>
+      Nh'ésitez plus, et venez partager un moment exceptionnel  ! 
     </p>
     
     <div class="flex justify-center items-center">
@@ -66,8 +70,8 @@
     </div>
 
     <p class="my-10">
-      N'hésitez plus, rejoingnez réarts ! <br>
-      Créez un compte et découvrez les différents artistes et associations sur notre compte !
+      N'hésitez plus, rejoingnez Réarts ! <br>
+      Créez un compte et découvrez les différents artistes et associations sur notre site !
     </p>
 
   

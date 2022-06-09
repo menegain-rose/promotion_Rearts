@@ -12,11 +12,13 @@
               <h3>A propos</h3>
           </RouterLink>
         </div>
+
+        
         <div class="relative z-50 h-full flex items-center">
           <Bouton class=" m-3">
-            <RouterLink to="/Inscription">
-            <slot>S'inscrire</slot>
-            </RouterLink>
+            <a href="https://rearts.leopold-ohnimus.fr/Inscription "> 
+              S'inscrire
+            </a>
           </Bouton>
         </div>
       </nav>
@@ -42,9 +44,9 @@
         <Youtube class="fill-white-primary inline-block m-3 mx-3"></Youtube>
       </div>
         <Bouton class=" m-3">
-          <RouterLink to="/Inscription" class=" m-3">
-          <slot>S'inscrire</slot>
-            </RouterLink>
+          <a href="https://rearts.leopold-ohnimus.fr/Inscription"> 
+              S'inscrire
+            </a>
         </Bouton>
 
         <RouterLink to="/Mlegal" class=" m-3">

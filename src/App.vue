@@ -16,7 +16,7 @@
         
         <div class="relative z-50 h-full flex items-center">
           <Bouton class=" m-3">
-            <a href="https://rearts.leopold-ohnimus.fr/Inscription"> 
+            <a href="https://rearts.leopold-ohnimus.fr"> 
               S'inscrire
             </a>
           </Bouton>
@@ -46,7 +46,7 @@
         <Youtube class="fill-white-primary inline-block m-3 mx-3"></Youtube>
       </div>
         <Bouton class=" m-3">
-          <a href="https://rearts.leopold-ohnimus.fr/Inscription"> 
+          <a href="https://rearts.leopold-ohnimus.fr"> 
               S'inscrire
             </a>
         </Bouton>
